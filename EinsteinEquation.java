@@ -41,7 +41,7 @@ class EinsteinEquation {
             // converts string input to a double
             final double massDouble = Double.parseDouble(massString);
             // checks if value is negative
-            if (massDouble > 0) {
+            if (massDouble >= 0) {
                 // calculates energy
                 final double energy = massDouble
                                     * (Math.pow(SPEED_OF_LIGHT, 2));
